@@ -3,7 +3,7 @@ import Button from "../Shared/Button/Button";
 
 const ButtonsFormSection = () => {
   return (
-    <div id="formButtonSection" className="w-full min-h-screen">
+    <div id="formButtonSection" className="w-full min-h-screen py-8">
       <div className="w-full h-full max-w-[1320px] m-auto md:px-4 px-3 flex justify-center items-center">
         {/* buttons + form ---------------------->  */}
         <div className="w-full flex flex-col gap-4">
