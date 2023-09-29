@@ -4,6 +4,7 @@ const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./layout/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -23,7 +24,11 @@ const config: Config = {
         lg: "976px",
         xl: "1280px",
       },
-      colors: {},
+      colors: {
+        yellow: {
+          main: "#FFAA28",
+        },
+      },
     },
   },
   plugins: [],
