@@ -51,8 +51,8 @@ const ButtonsFormSection = () => {
               <div className="col-span-4 sm:col-span-3 md:col-span-4 grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 gap-4">
                 {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((item, index) => {
                   return (
-                    <div className="w-full">
-                      <Button key={index} style="w-full"></Button>
+                    <div key={index} className="w-full">
+                      <Button style="w-full"></Button>
                     </div>
                   );
                 })}
