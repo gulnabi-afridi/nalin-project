@@ -31,7 +31,7 @@ const ButtonsFormSection = () => {
           {/* 3 rows with 4 buttons each side and at center form --------------------> */}
           <div className="w-full grid grid-cols-4 sm:grid-cols-8 md:grid-cols-12 xl:grid-cols-15">
             {/* first 4 buttons  */}
-            <div className="col-span-4 sm:col-span-3 md:col-span-4 grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 gap-2 gap-y-4">
+            <div className="col-span-4 sm:col-span-3 md:col-span-4 grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 gap-2 gap-y-2 sm:gap-y-4">
               {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((item, index) => {
                 return (
                   <Button key={index} text="button" style="w-full"></Button>
@@ -94,7 +94,7 @@ const ButtonsFormSection = () => {
             </div>
 
             {/* last 4 buttons */}
-            <div className="col-span-4 sm:col-span-3 md:col-span-4 grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 gap-2 gap-y-4">
+            <div className="col-span-4 sm:col-span-3 md:col-span-4 grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 gap-2 gap-y-2 sm:gap-y-4">
               {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((item, index) => {
                 return (
                   <Button key={index} text="button" style="w-full"></Button>
