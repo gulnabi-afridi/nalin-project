@@ -1,5 +1,5 @@
 import React from "react";
-import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -14,20 +14,12 @@ const HeroSection = () => {
           Powered by company
         </p>
         {/* try it now button ------> */}
-        <ScrollLink
-          to="formButtonSection"
-          spy={true}
-          smooth={true}
-          hashSpy={true}
-          offset={0}
-          duration={800}
-          isDynamic={true}
-          ignoreCancelEvents={false}
-          spyThrottle={500}
-          className="mt-5 cursor-pointer text-[24px] text-black font-incon font-semibold tracking-normal hover:opacity-80 bg-yellow-main px-8 py-[6px] sm:py-2 rounded-md"
+        <Link
+          href="/calltoaction"
+          className="mt-5 cursor-pointer text-[24px] text-black font-incon font-semibold tracking-normal hover:opacity-80 bg-yellow-main px-8 py-[6px] sm:py-[8px] rounded-md"
         >
           Try it Now
-        </ScrollLink>
+        </Link>
       </div>
     </div>
   );
