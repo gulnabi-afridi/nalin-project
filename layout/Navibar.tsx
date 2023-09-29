@@ -12,7 +12,7 @@ const Navibar = () => {
         {/* logo ---->  */}
         <Link
           href="/"
-          className="text-[38px] text-yellow-main font-black font-incon"
+          className="text-[34px] sm:text-[38px] text-yellow-main font-black font-incon"
         >
           Logo
         </Link>

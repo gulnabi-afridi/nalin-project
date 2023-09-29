@@ -19,7 +19,7 @@ const ButtonsFormSection = () => {
     <React.Fragment>
       <div
         id="formButtonSection"
-        className="w-full min-h-[calc(100vh-90px)] flex justify-center items-center"
+        className="w-full min-h-[calc(100vh-90px)] flex justify-center items-center sm:py-0 py-6"
       >
         <div className="w-full h-full max-w-[1320px] m-auto md:px-4 px-3 flex justify-center items-center">
           {/* buttons + form ---------------------->  */}
