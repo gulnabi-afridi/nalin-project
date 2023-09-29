@@ -11,3 +11,22 @@
 html {
   background-color: black;
 }
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  min-width: 16px;
+  min-height: 16px;
+  border: 2px solid #ccc; /* Default border color */
+  border-radius: 4px;
+  outline: none;
+  transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+/* Style the checkbox when checked */
+input[type="checkbox"]:checked {
+  background-color: #ffaa28; /* Change the background color when checked */
+  border-color: #ffaa28; /* Change the border color when checked */
+}
