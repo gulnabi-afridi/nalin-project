@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 const HeroSection = () => {
   return (
     <div className="w-full flex">
-      <div className="w-full max-w-[1280px] m-auto sm:gap-4 gap-1 md:px-4 px-3 h-[calc(100vh-90px)] flex flex-col justify-center sm:mt-0 -mt-28 items-center">
+      <div className="w-full max-w-[1280px] m-auto sm:gap-4 gap-1 md:px-4 px-3 h-[calc(100vh-90px)] flex flex-col justify-center items-center">
         {/* title -------->  */}
         <p className="text-[40px] leading-[43px] sm:text-[50px] md:text-[68px] text-center sm:leading-14 md:leading-16 uppercase font-black text-yellow-main font-incon tracking-wider">
           PRIVATE AUCTIONS
