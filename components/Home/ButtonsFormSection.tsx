@@ -52,7 +52,7 @@ const ButtonsFormSection = () => {
                 {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((item, index) => {
                   return (
                     <div key={index} className="w-full">
-                      <Button style="w-full"></Button>
+                      <Button event={openModal} style="w-full"></Button>
                     </div>
                   );
                 })}
@@ -115,7 +115,13 @@ const ButtonsFormSection = () => {
               {/* last 4 buttons */}
               <div className="col-span-4 sm:col-span-3 md:col-span-4 grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 gap-4">
                 {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((item, index) => {
-                  return <Button key={index} style="w-full"></Button>;
+                  return (
+                    <Button
+                      event={openModal}
+                      key={index}
+                      style="w-full"
+                    ></Button>
+                  );
                 })}
               </div>
             </div>
@@ -128,7 +134,13 @@ const ButtonsFormSection = () => {
                 >
                   {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map(
                     (item, index) => {
-                      return <Button key={index} style="w-full"></Button>;
+                      return (
+                        <Button
+                          event={openModal}
+                          key={index}
+                          style="w-full"
+                        ></Button>
+                      );
                     }
                   )}
                 </div>
