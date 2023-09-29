@@ -20,7 +20,7 @@ const Navibar = () => {
         <div className="flex justify-center items-center gap-3 sm:gap-6">
           {socialLinks.map((item, index) => {
             return (
-              <div className="w-[30px] sm:w-[40px] h-[30px] sm:h-[40px] bg-white/90 hover:opacity-80 rounded-full flex justify-center items-center hover:scale-110 transform duration-200 ease-in-out">
+              <div className="w-[30px] sm:w-[40px] h-[30px] sm:h-[40px] bg-white hover:opacity-80 rounded-full flex justify-center items-center hover:scale-110 transform duration-200 ease-in-out">
                 <Link href={item.path} key={index}>
                   {item.icon}
                 </Link>
